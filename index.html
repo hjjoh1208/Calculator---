@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <style>
+    #rect{
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+      float: right;
+      margin-right: 30px;
+      width: 250px;
+      height: 30px;
+      background: #b9dded;
+      overflow: hidden;
+      word-wrap: break-word;
+    }
+    #total{
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+      float: right;
+      margin-right: 30px;
+      width: 250px;
+      height: 190px;
+      background: #edc1c3;
+      overflow: auto;
+      word-wrap: break-word;
+    }
+    #title{
+      font-size: 35px;
+      font-family: 'Open Sans', sans-serif;
+      color: #9f0300;
+    }
+    .copyright{
+      float: right;
+      font-size: 10px;
+    }
+
+    .button {
+      width: 100px;
+      height: 33px;
+    }
+    .button0 {
+      width: 100px;
+      height: 33px;
+      margin-left: 100px;
+    }
+  </style>
+  <body>
+    <meta charset="UTF-8">
+
+    <h1>Calculator</h1>
+    <!--<div id="rect">asdfasdfasdf</div>-->
+
+    <!--<img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">-->
+
+    <p id="title">It works in order. </p> <div id="rect"></div>
+    <p><button class="button" id="7">7</button><button class="button" id="8">8</button><button class="button" id="9">9</button></p> <div id="total"></div>
+    <p><button class="button" id="4">4</button><button class="button" id="5">5</button><button class="button" id="6">6</button></p>
+    <p><button class="button" id="3">3</button><button class="button" id="2">2</button><button class="button" id="1">1</button></p>
+    <p><button class="button0" id="0">0</button></p>
+    <p id="result">결과값 : </p>
+    <button id="+">Plus(+)</button>
+    <button id="-">Minus(-)</button>
+    <button id="*">Times(*)</button>
+    <button id="/">Divide(/)</button>
+    <button id="clear">Clear!</button>
+    <button id="cal">계산!</button>
+
+    <!--<ul> &lt;!&ndash; changed to list in the tutorial &ndash;&gt;-->
+      <!--<li>숫자 A : </li><button>클릭!</button>;-->
+      <!--<li>숫자 B : </li>-->
+      <!--<li>결과값 : </li>-->
+    <!--</ul>-->
+
+    <!--<p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>-->
+
+    <p>Send email <a href="https://gmail.com" target="_blank">"hjjoh1208@kaist.ac.kr"</a> to improve functions.</p>
+    <p class="copyright">Copyright 2019. Hyunjun Joh. all rights reserved.</p>
+    <!--<button id="button">Change User</button>-->
+    <!--<button id="button_freak">Change User(Freak)</button>-->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
